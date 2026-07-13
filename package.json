@@ -1,0 +1,27 @@
+{
+  "name": "peticion-en-3-clics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleyder02/peticion-en-3-clics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sleyder02/peticion-en-3-clics/issues"
+  },
+  "homepage": "https://github.com/sleyder02/peticion-en-3-clics#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1"
+  }
+}
