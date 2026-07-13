@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Petición en 3 Clics</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <main class="contenedor">
+    <header class="encabezado">
+      <h1>Petición en 3 Clics</h1>
+      <p>
+        Crea una causa comunitaria, registra apoyos ciudadanos y prepara evidencia colectiva.
+      </p>
+    </header>
+
+    <section class="aviso">
+      <h2>Privacidad</h2>
+      <p>
+        Esta plataforma es de práctica. No escribas cédulas, teléfonos, direcciones,
+        correos reales ni datos sensibles. Usa datos simulados.
+      </p>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Crear causa comunitaria</h2>
+
+      <form id="formCausa">
+        <label for="titulo">Título de la causa</label>
+        <input
+          type="text"
+          id="titulo"
+          name="titulo"
+          placeholder="Ejemplo: Solicitud de iluminación para el parque"
+          required
+        />
+
+        <label for="descripcion">Descripción</label>
+        <textarea
+          id="descripcion"
+          name="descripcion"
+          rows="5"
+          placeholder="Describe la necesidad comunitaria con lenguaje claro y respetuoso"
+          required
+        ></textarea>
+
+        <button type="submit">Crear causa</button>
+      </form>
+
+      <div id="mensajeCausa" class="mensaje"></div>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Causas registradas</h2>
+      <div id="listaCausas">
+        Cargando causas...
+      </div>
+    </section>
+  </main>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

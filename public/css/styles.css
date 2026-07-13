@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0B1B0E;
+  color: #222;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.encabezado {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+}
+
+.tarjeta {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+}
+
+.aviso {
+  background: #fff4d6;
+  border-left: 5px solid #b88700;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 6px;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 14px;
+  font-weight: bold;
+}
+
+.mensaje {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.causa {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 14px;
+  background: #fafafa;
+}
+
+.contador {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.apoyos {
+  margin-top: 10px;
+  padding-left: 16px;
+}
+
+.apoyo {
+  border-left: 3px solid #ccc;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+.privacidad {
+  font-size: 14px;
+  background: #eef7ff;
+  border: 1px solid #b6dcff;
+  padding: 10px;
+  border-radius: 8px;
+}

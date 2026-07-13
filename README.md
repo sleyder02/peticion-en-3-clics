@@ -40,3 +40,18 @@ DB_PATH=./database.sqlite
 ## Privacidad
 
 No se solicitan cédulas, teléfonos, direcciones ni datos sensibles.
+
+## Interfaz visual
+
+La Clase 57 agrega una interfaz en `/` que permite:
+
+- Crear causas comunitarias.
+- Ver causas registradas.
+- Registrar apoyos.
+- Ver contador de apoyos.
+- Ver comentarios de apoyo.
+
+## Regla de privacidad
+
+El formulario de apoyo solo pide nombre de práctica y comentario opcional.
+No solicita cédula, teléfono, dirección ni datos sensibles.
