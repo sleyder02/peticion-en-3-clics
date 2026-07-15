@@ -97,6 +97,11 @@ async function pintarCausas(causas) {
 
             <button type="submit">Apoyar causa</button>
           </form>
+          <p>
+           <button type="button" onclick="descargarPdf(${causa.id})">
+           Descargar PDF
+         </button>
+        </p>
 
           <div class="apoyos" id="apoyos-${causa.id}">
             Cargando comentarios...
@@ -190,6 +195,10 @@ async function registrarApoyo(event, causaId) {
     alert("Error conectando con el servidor.");
     console.error(error);
   }
+}
+
+function descargarPdf(causaId) {
+  window.open(`/api/pdf/${causaId}`, "_blank");
 }
 
 document.addEventListener("DOMContentLoaded", () => {

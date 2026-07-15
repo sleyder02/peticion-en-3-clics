@@ -55,3 +55,33 @@ La Clase 57 agrega una interfaz en `/` que permite:
 
 El formulario de apoyo solo pide nombre de práctica y comentario opcional.
 No solicita cédula, teléfono, dirección ni datos sensibles.
+
+## Generación de PDF
+
+La Clase 58 agrega generación de PDF colectivo.
+
+Ruta:
+
+```txt
+GET /api/pdf/:causaId
+````
+
+Ejemplo:
+
+```bash
+curl -L http://localhost:3000/api/pdf/1 --output peticion-causa-1.pdf
+```
+
+El PDF incluye:
+
+* Advertencia jurídica.
+* Título de la causa.
+* Descripción.
+* Total de apoyos.
+* Listado de apoyos.
+* Comentarios.
+* Cierre de práctica.
+
+## Advertencia
+
+El PDF es un documento de práctica. No constituye radicación automática, no certifica identidad real y debe ser revisado antes de cualquier uso formal.
